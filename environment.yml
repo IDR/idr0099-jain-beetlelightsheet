@@ -6,7 +6,9 @@ channels:
 dependencies:
   - bftools=6.5.1
   - bioformats2raw=0.2.6
+  - imageio=2.9.0
   - jupyterlab=2.2.6
+  - matplotlib=3.3.2
   - numpy=1.19.2
   - omero-py=5.8.2
   - openjdk=8.0.152
