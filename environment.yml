@@ -9,6 +9,7 @@ dependencies:
   - imageio=2.9.0
   - jupyterlab=2.2.6
   - matplotlib=3.3.2
+  - nodejs=10.13.0
   - numpy=1.19.2
   - omero-py=5.8.2
   - openjdk=8.0.152
@@ -18,3 +19,5 @@ dependencies:
   - requests=2.24.0
   - scipy=1.5.2
   - tifffile=2020.10.1
+  - pip:
+    - omero-metadata==0.6.0
