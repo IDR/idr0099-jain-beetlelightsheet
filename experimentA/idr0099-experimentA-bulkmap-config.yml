@@ -1,0 +1,67 @@
+---
+name: idr0099-jain-beetlelightsheet/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Strain
+    include: yes
+
+  - name: Protocol (Microscope)
+    include: yes
+
+  - name: No of Views imaged for Multiview reconstruction
+    include: yes
+
+  - name: Assay Name
+    include: yes
+
+  - name: Characetristics (Genotype )
+    clientname: Genotype
+    include: yes
+
+  - name: Experimental Condition
+    include: yes
+
+  - name: Cellular structure labelled
+    include: yes
+
+  - name: Protocol (Analysis)
+    include: yes
+
+  - name: Processed Data File
+    include: yes
+
+# Voxel dimensions
+# Dataset Name
+# Image File Format
+# Channels
+# Reporter
+# Time Interval
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+advanced:
+  well_to_images: true
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
