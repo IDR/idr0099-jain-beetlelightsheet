@@ -1,17 +1,22 @@
 name: idr0099-bioformats
 channels:
+  - manics
   - defaults
 dependencies:
+  - bftools=6.5.1
+  - bftools-libs=6.5.1
+  - bioformats2raw=0.2.6
+  - bioformats2raw-libs=0.2.6
   - future=0.18.2
   - gcc_linux-64=7.3.0
   - ipykernel=5.3.4
-  - ipywidgets-7.5.1
+  - ipywidgets=7.5.1
   - notebook=6.1.4
   - numpy=1.19.2
   - openjdk=8.0.152
   - pip=20.2.4
   - python=3.7.9
-  - tqdm-4.51.0
+  - tqdm=4.51.0
   - pip:
     - boto3==1.16.26
     - botocore==1.19.26
