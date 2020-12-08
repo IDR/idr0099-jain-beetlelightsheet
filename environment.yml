@@ -20,4 +20,5 @@ dependencies:
   - scipy=1.5.2
   - tifffile=2020.10.1
   - pip:
+    - ome-model==6.2.1
     - omero-metadata==0.6.0
