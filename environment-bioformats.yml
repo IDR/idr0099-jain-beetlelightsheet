@@ -1,26 +1,42 @@
 name: idr0099-bioformats
 channels:
+  - ome
   - manics
   - defaults
 dependencies:
+  - aiohttp=3.7.3
   - bftools=6.5.1
   - bftools-libs=6.5.1
   - bioformats2raw=0.2.6
   - bioformats2raw-libs=0.2.6
+  - dask=2.30.0
+  - dataclasses=0.7
   - future=0.18.2
   - gcc_linux-64=7.3.0
+  - imageio=2.9.0
   - ipykernel=5.3.4
+  - ipython=7.19.0
   - ipywidgets=7.5.1
   - notebook=6.1.4
   - numpy=1.19.2
+  - omero-py=5.8.2
   - openjdk=8.0.152
+  - pandas=1.1.3
   - pip=20.2.4
   - python=3.7.9
+  - requests=2.25.0
+  - s3fs=0.5.1
+  - scikit-image=0.17.2
+  - scipy=1.5.2
+  - tifffile=2020.12.4
+  - toolz=0.11.1
   - tqdm=4.51.0
+  - vispy=0.5.3
+  - xmltodict=0.12.0
+  - zarr=2.6.1
   - pip:
     - boto3==1.16.26
-    - botocore==1.19.26
+    - ome-zarr==0.0.17
+#     - omero-cli-zarr==0.1.dev186+g7ef1e30
     - python-bioformats==4.0.0
     - python-javabridge==4.0.0
-    - s3transfer==0.3.3
-    - urllib3==1.26.2
