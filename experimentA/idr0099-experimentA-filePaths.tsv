@@ -1,5 +1,5 @@
-Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:16-4-15_LifeAct-eGFP	20201208-companions/16-4-15_LifeAct-eGFP/img_TL.companion.ome	img_TL
-Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:22-06-16_Tc-Squash-eGFP	20210128-companions/22-06-16_Tc-Squash-eGFP/TP_Ch0_Ill0_Ang1,2,3,4,5.tif.companion.ome	TP_Ch0_Ill0_Ang1,2,3,4,5
-Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:4-3-15_nGFP	20210208-patterns/4-3-15_nGFP/TP_Chgreen_Ill0_Ang0,1,2.pattern	TP_Chgreen_Ill0_Ang0,1,2
-Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:8-6-19_ZenKD_GAP43-eYFP	20210208-patterns/8-6-19_ZenKD_GAP43-eYFP/fused_tp_ch_0.pattern	fused_tp_ch_0
-Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:9-3-15_Histone-eGFP	20210208-patterns/9-3-15_Histone-eGFP/TP_Chgreen_Ill0_Ang0,1,2.pattern	TP_Chgreen_Ill0_Ang0,1,2
+Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:LifeAct-eGFP	20201208-companions/16-4-15_LifeAct-eGFP/img_TL.companion.ome	img_TL
+Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:Tc-Squash-eGFP	20210128-companions/22-06-16_Tc-Squash-eGFP/TP_Ch0_Ill0_Ang1,2,3,4,5.tif.companion.ome	TP_Ch0_Ill0_Ang1,2,3,4,5
+Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:nGFP	20210208-patterns/4-3-15_nGFP/TP_Chgreen_Ill0_Ang0,1,2.pattern	TP_Chgreen_Ill0_Ang0,1,2
+Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:ZenKD_GAP43-eYFP	20210208-patterns/8-6-19_ZenKD_GAP43-eYFP/fused_tp_ch_0.pattern	fused_tp_ch_0
+Project:name:idr0099-jain-beetlelightsheet/experimentA/Dataset:name:Histone-eGFP	20210208-patterns/9-3-15_Histone-eGFP/TP_Chgreen_Ill0_Ang0,1,2.pattern	TP_Chgreen_Ill0_Ang0,1,2
