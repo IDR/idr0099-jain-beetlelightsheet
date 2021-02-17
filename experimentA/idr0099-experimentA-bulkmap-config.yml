@@ -11,40 +11,35 @@ defaults:
 
 columns:
 
-  - name: Strain
+  - name: Characteristics [Strain]
+    clientname: Strain
     include: yes
 
-  - name: Protocol (Microscope)
+  - name: Reporter
     include: yes
 
-  - name: No of Views imaged for Multiview reconstruction
+  - name: Experimental Condition [Transgenic Line]
+    clientname: Transgenic Line
     include: yes
 
-  - name: Assay Name
-    include: yes
-
-  - name: Characetristics (Genotype )
+  - name: Experimental Condition [Genotype]
     clientname: Genotype
     include: yes
 
-  - name: Experimental Condition
+  - name: Experimental Condition [Time Interval]
+    clientname: Time Interval
     include: yes
 
-  - name: Cellular structure labelled
+  - name: Experimental Condition [Labelled Cellular Structure]
+    clientname: Labelled Cellular Structure
     include: yes
 
-  - name: Protocol (Analysis)
+  - name: Views Imaged for Multiview Reconstruction
     include: yes
 
   - name: Processed Data File
     include: yes
 
-# Voxel dimensions
-# Dataset Name
-# Image File Format
-# Channels
-# Reporter
-# Time Interval
 
 
   ######################################################################
