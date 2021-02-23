@@ -1,0 +1,14 @@
+---
+channels:
+    1:
+        active: true
+        color: 00FF00
+        end: 1250.0
+        label: 'eYFP'
+        max: 65535.0
+        min: 0.0
+        start: 200.0
+greyscale: false
+t: 1
+version: 2
+z: 591
