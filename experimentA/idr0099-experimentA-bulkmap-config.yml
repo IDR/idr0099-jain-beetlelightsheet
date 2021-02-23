@@ -37,6 +37,9 @@ columns:
   - name: Views Imaged for Multiview Reconstruction
     include: yes
 
+  - name: Voxel Dimensions
+    include: yes
+
   - name: Processed Data File
     include: yes
 
