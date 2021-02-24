@@ -40,6 +40,10 @@ columns:
   - name: Voxel Dimensions
     include: yes
 
+  - name: Comment [Image File]
+    clientname: Image File Comment
+    include: yes
+
   - name: Processed Data File
     include: yes
 
