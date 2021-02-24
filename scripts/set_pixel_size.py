@@ -26,10 +26,11 @@ with omero.cli.cli_login() as c:
     project = cs.loadContainerHierarchy("Project", [project_id], param)[0]
     for ds in project.linkedDatasetList():
         for img in ds.linkedImageList():
-            if ds.getName()._val == "4-3-15_nGFP" and img.getName()._val == "TP_Chgreen_Ill0_Ang0,1,2":
+            if ds.getName()._val == "nGFP" and img.getName()._val == "TP_Chgreen":
                 x = 0.33
             else:
                 x = 0.38
             y = 0.33
             z = 2
             set_pixel_size(conn, img, x, y ,z)
+
